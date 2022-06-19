@@ -11,5 +11,14 @@
             This is a basic view of
             <em>node-express-typescript-starter</em> server.
         </p>
+        <script src="/js/adblocker.js"></script>
+        <script>
+            detectAdBlock().then((isAdBlockerEnabled) => {
+                if (isAdBlockerEnabled)
+                    console.log(
+                        'We detected that you have at least an ad blocker enabled. Please disable it.'
+                    )
+            })
+        </script>
     </body>
 </html>

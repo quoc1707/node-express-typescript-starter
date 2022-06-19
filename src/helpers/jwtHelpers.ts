@@ -1,14 +1,15 @@
 import {
-    sign,
-    verify,
-    decode,
+    DecodeOptions,
+    Jwt,
+    JwtPayload,
     Secret,
     SignOptions,
-    Jwt,
     VerifyOptions,
-    DecodeOptions,
-    JwtPayload,
+    decode,
+    sign,
+    verify,
 } from 'jsonwebtoken'
+
 import { IJwt } from '../interfaces/helpers'
 
 class JwtHelper implements IJwt {

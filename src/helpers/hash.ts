@@ -1,4 +1,5 @@
 import { compare, genSalt, hash } from 'bcrypt'
+
 import { IHash } from '../interfaces/helpers'
 
 class Hash implements IHash {

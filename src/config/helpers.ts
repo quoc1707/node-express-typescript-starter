@@ -1,6 +1,6 @@
 import Hash from '../helpers/hash'
-import JwtHelper from '../helpers/jwtHelpers'
 import { IHelpers } from '../interfaces/helpers'
+import JwtHelper from '../helpers/jwtHelpers'
 
 const helpers: IHelpers = {
     jwt: new JwtHelper(),

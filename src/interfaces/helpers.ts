@@ -1,5 +1,3 @@
-import Hash from '../helpers/hash'
-import JwtHelper from '../helpers/jwtHelpers'
 import {
     DecodeOptions,
     Jwt,
@@ -8,6 +6,9 @@ import {
     SignOptions,
     VerifyOptions,
 } from 'jsonwebtoken'
+
+import Hash from '../helpers/hash'
+import JwtHelper from '../helpers/jwtHelpers'
 
 interface IHelpers {
     hash: Hash
